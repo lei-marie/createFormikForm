@@ -1,9 +1,9 @@
 import React from "react";
-// TODO: import useFormik from formik library
+//import useFormik from formik library
 import {useFormik} from 'formik'
 
 function App() {
-  // TODO: add a const called formik assigned to useFormik()
+  //assign variable to useFormik()
   const formik = useFormik({
   // initial values correspond to each of the values on the page
     initialValues: {
